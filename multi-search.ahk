@@ -1,5 +1,6 @@
 #SingleInstance, force
 
+#IfWinActive, ahk_exe firefox.exe
 ^+Enter::
 Send, ^a
 Send, ^c
